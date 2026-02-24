@@ -1,0 +1,31 @@
+{
+  "name": "Calendar Connector",
+  "description": "Create events, list upcoming schedule, and check availability via Google Calendar API",
+  "type": "connector",
+  "complexity": "intermediate",
+  "features": [
+    "Create events",
+    "List upcoming events",
+    "Check availability",
+    "Update events",
+    "OAuth2 authentication",
+    "Multi-calendar support"
+  ],
+  "env_vars": [
+    "GCAL_CLIENT_ID",
+    "GCAL_CLIENT_SECRET",
+    "GCAL_REFRESH_TOKEN",
+    "AGENT_NAME"
+  ],
+  "icon": "📅",
+  "connector": {
+    "service_name": "google-calendar",
+    "auth_type": "oauth2",
+    "capabilities": [
+      "create",
+      "read",
+      "update",
+      "availability"
+    ]
+  }
+}

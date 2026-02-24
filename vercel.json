@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "env": {
+    "GCAL_CLIENT_ID": "",
+    "GCAL_CLIENT_SECRET": "",
+    "GCAL_REFRESH_TOKEN": ""
+  }
+}

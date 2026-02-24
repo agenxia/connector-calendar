@@ -1,0 +1,16 @@
+{
+  "name": "connector-calendar",
+  "version": "1.0.0",
+  "description": "Google Calendar connector for Agenxia agents",
+  "main": "api/events.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/events.js"
+  },
+  "dependencies": {
+    "googleapis": "^131.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
